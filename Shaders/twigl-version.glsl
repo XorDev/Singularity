@@ -1,3 +1,7 @@
+//"Singularity" by @XorDev
+//https://x.com/XorDev/status/1897669357934608590
+//MIT License
+
 vec2 p=(FC.xy*2.-r)/r.y/.7,
 d=vec2(-1,1),
 c=p*mat2(1,1,d/(.1+5./dot(5.*p-d,5.*p-d))),
